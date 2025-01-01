@@ -1,27 +1,27 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+
 
 const Header: React.FC = () => {
-    return (
-        <header className="bg-gray-800 text-white p-4">
-            <div className="container mx-auto flex justify-between items-center">
-                <div className="text-2xl font-bold">
-                    <Link href="/">
-                        <a>M A S A</a>
-                    </Link>
-                </div>
-                <nav>
-                    <ul className="flex space-x-4">
-                        <li>
-                            <Link href="/about">
-                                <a>About</a>
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    );
+  return (
+    <div className="w-[98dvw] flex flex-col justify-center items-center">
+      <header className=" m-1 relative z-20 w-full rounded-2xl shadow-lg bg-white/90 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
+        <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
+          <nav
+            aria-label="main navigation"
+            className="flex md:h-[5.5rem] h-[3.5rem] items-stretch justify-between font-medium text-slate-700"
+            role="navigation"
+          >
+            <a
+              className="font-Anek lg:text-[1.5rem] flex items-center gap-2 py-3 text-lg whitespace-nowrap focus:outline-none lg:flex-1"
+              href="#"
+            >
+              ഇസ്ലാം; ലളിതം, സുന്ദരം
+            </a>
+          </nav>
+        </div>
+      </header>
+    </div>
+  );
 };
 
 export default Header;
