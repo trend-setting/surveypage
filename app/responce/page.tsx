@@ -85,7 +85,7 @@ const Response: React.FC = () => {
                 key={i}
               >
                 <div className="p-6">
-                  <p className="text-xl font-medium text-white"> {row[3]} </p>
+                  <p className="text-xl font-Anek font-medium text-white"> {row[3]} </p>
                   <header className="mt-4">
                     <h3 className="uppercase">{row[1]}</h3>
                     <p className="text-sm text-slate-400">{row[2]}</p>
