@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="w-[98dvw] flex flex-col justify-center items-center mt-1  relative z-20 rounded-tr-2xl rounded-tl-2xl shadow-lg bg-neutral-700 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
+    <div className="pt-3 pb-2 w-[98dvw] flex flex-col justify-center items-center mt-1  relative z-20 rounded-tr-2xl rounded-tl-2xl shadow-lg bg-neutral-700 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
       <div className="p-2 md:p-5 text-balance">
         Munthajul Afnan Students' Assosciation
         <div className="flex columns-1">
