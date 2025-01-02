@@ -4,7 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="w-[98dvw] flex flex-col justify-center items-center">
+    <div className="w-[98dvw] flex flex-col justify-center items-center mt-1  relative z-20 rounded-tr-2xl rounded-tl-2xl shadow-lg bg-neutral-700 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
       <div className="p-2 md:p-5 text-balance">
         Munthajul Afnan Students' Assosciation
         <div className="flex columns-1">
@@ -16,7 +16,7 @@ export default function Footer() {
           <a
             href="https://www.instagram.com/wafypmsa_official/"
             target="_blank"
-            className="text-white flex columns-1"
+            className=" flex columns-1"
           >
             <FaInstagram size={20} className="mr-2" />
             wafypmsa_official
@@ -26,7 +26,7 @@ export default function Footer() {
           <a
             href="https://youtube.com/@munthajulafnanstudentsasso6980?si=x3m_nrILHgMRXz9s"
             target="_blank"
-            className="text-white flex columns-1"
+            className=" flex columns-1"
           >
             <FaYoutube size={20} className="mr-2" />
             Munthajul Afnan Students' Assosciation MASA
@@ -36,7 +36,7 @@ export default function Footer() {
           <a
             href="https://www.facebook.com/pmsawafy"
             target="_blank"
-            className="text-white flex columns-1"
+            className=" flex columns-1"
           >
             <FaFacebook size={20} className="mr-2" />
             Pmsa Wafy
@@ -56,7 +56,7 @@ export default function Footer() {
             m_Salih_Kc
           </a>
         </span>
-        <br className='h-4'></br>
+        <br className="h-4"></br>
       </div>
     </div>
   );

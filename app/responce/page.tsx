@@ -44,7 +44,7 @@ const Response: React.FC = () => {
   }, []);
 
   return (
-    <div className="w-[98dvw] p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 overflow-auto">
+    <div className="w-[98dvw] p-2 md:p-10 rounded-2xl  border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 overflow-auto">
       {loading ? (
         <Skeleton1 />
       ) : (
@@ -81,15 +81,13 @@ const Response: React.FC = () => {
             </a>
             {data[stageKey].map((row, i) => (
               <div
-                className="overflow-hidden bg-white rounded-2xl shadow-sm text-slate-500 shadow-slate-200 mb-3"
+                className="overflow-hidden bg-neutral-700 rounded-2xl shadow-sm text-white shadow-slate-200 mb-3"
                 key={i}
               >
                 <div className="p-6">
-                  <p> {row[3]} </p>
+                  <p className="text-xl font-medium text-white"> {row[3]} </p>
                   <header className="mt-4">
-                    <h3 className="uppercase text-xl font-medium text-slate-700">
-                      {row[1]}
-                    </h3>
+                    <h3 className="uppercase">{row[1]}</h3>
                     <p className="text-sm text-slate-400">{row[2]}</p>
                   </header>
                 </div>

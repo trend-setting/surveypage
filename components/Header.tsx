@@ -4,11 +4,11 @@ import React from "react";
 const Header: React.FC = () => {
   return (
     <div className="w-[98dvw] flex flex-col justify-center items-center">
-      <header className=" m-1 relative z-20 w-full rounded-2xl shadow-lg bg-white/90 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
+      <header className=" mb-1 relative z-20 w-full rounded-br-2xl rounded-bl-2xl shadow-lg bg-neutral-700 shadow-slate-700/5  lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
-            className="flex md:h-[5.5rem] h-[3.5rem] items-stretch justify-between font-medium text-slate-700"
+            className="flex md:h-[5.5rem] h-[3.5rem] items-stretch justify-between font-medium text-white"
             role="navigation"
           >
             <a
