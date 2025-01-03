@@ -44,7 +44,7 @@ const Response: React.FC = () => {
   }, []);
 
   return (
-    <div className="w-[98dvw] p-2 md:p-10 rounded-2xl  border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 overflow-auto">
+    <div className="w-[98dvw] p-2 md:p-10  border border-neutral-200  bg-secondary overflow-auto">
       {loading ? (
         <Skeleton1 />
       ) : (
@@ -55,7 +55,7 @@ const Response: React.FC = () => {
           >
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeHyaxutu0f_PolHHlfZiPhng1HNpb2jLfnDT-t_cIzdm5ssA/viewform?usp=dialog"
-              className="mb-2 bg-dark dark:bg-dark-2 border-dark dark:border-dark-2 border rounded-xl inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-body-color hover:border-body-color disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5"
+              className="mb-2 bg-light dark:bg-dark-2 border-dark dark:border-dark-2 border rounded-xl inline-flex items-center justify-center py-3 px-7 text-center text-base font-medium text-white hover:bg-body-color hover:border-body-color disabled:bg-gray-3 disabled:border-gray-3 disabled:text-dark-5"
             >
               <span className="pr-[10px]">
                 <svg
@@ -81,7 +81,7 @@ const Response: React.FC = () => {
             </a>
             {data[stageKey].map((row, i) => (
               <div
-                className="overflow-hidden bg-neutral-700 rounded-2xl shadow-sm text-white shadow-slate-200 mb-3"
+                className="overflow-hidden bg-light rounded-2xl shadow-sm text-white shadow-slate-200 mb-3"
                 key={i}
               >
                 <div className="p-6">

@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#fff", // Main background
+        secondary: "#004c6d", // Navbar Footer
+        accent: "#fefae0", // Button background
+        light: "#2d769b", // Lighter background for elements
+        muted: "#8dbedb", // Muted tones for hover
       },
     },
   },
