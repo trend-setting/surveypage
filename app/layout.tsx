@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Beuty in Islam",
+  title: "Beauty in Islam",
   description: "opinions about beauty of Islam",
 };
 
