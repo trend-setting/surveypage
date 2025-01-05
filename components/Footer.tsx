@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto px-4 md:px-8">
         <div className="mt-4 py-5 border-t border-accent flex items-center justify-between sm:flex-row flex-col">
           <p className="text-primary">
-            © 2024 PMSA Kattilangadi. All rights reserved.
+            © 2025 PMSA Kattilangadi. All rights reserved.
           </p>
           <div className="flex items-center gap-x-6 text-primary mt-3 sm:mt-0">
             <a
